@@ -1,0 +1,116 @@
+body {
+    background-color: beige;
+    /* background-image: url('../img/black-and-white-clouds-dark-557782.jpg'); */
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Cinzel', serif;
+}
+
+.navbar{
+    background-color: black;
+    height: 60px;
+    color: beige;
+    overflow: auto;
+    top: 0;
+    width: 100%;
+    transition:all 0.9s;
+}
+
+.navbar a {
+    color: beige;
+    font-size: 17px;
+    
+}
+
+.navbar a:hover {
+    background-color: beige;
+    color: black;
+}
+
+.navbar ul li {
+    margin-top: 12px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+.carousel-inner img {
+    background-size: cover;
+    background-position: 10 10;
+}
+
+#me {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+
+#me ul li {
+    display: inline-block;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#me-inside-2 {
+    margin-top: 100px;
+}
+
+
+hr {
+    border: solid 1px gray;
+}
+
+.contact-me {
+    color: beige;
+    padding-top: 10px;
+    margin-top: 100px;
+    height: 250px;
+    background-color: black;
+}
+
+.container-contact {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-me ul li {
+    display: inline-block;
+}
+
+ p {
+    font-size: 20px;
+ }
+
+ footer {
+     padding-top: 25px;
+     text-align: center;
+     height: 70px;
+     color: beige;
+     background-color: black;
+ }
+
+ footer h3 {
+     font-size: 15px;
+ }
+
+ iframe {
+     width: 100%;
+     height: 100%;
+ }
+ .mapouter {
+    text-align:right;
+    height:463px;
+    width:auto;
+ }
+
+ .gmap_canvas {
+     overflow:hidden;
+     background:none!important;
+     height:463px;
+     width:auto;
+}
